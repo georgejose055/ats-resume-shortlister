@@ -6,7 +6,7 @@ document.getElementById('runBtn').addEventListener('click', async () => {
     }
     
     // Replace with your N8N webhook URL (from Step 3)
-    const webhookUrl = 'https://your-n8n-instance.com/webhook/your-webhook-id';  // Update this!
+    const webhookUrl = 'https://haisol.app.n8n.cloud/webhook-test/screen';  // Update this!
     
     try {
         const response = await fetch(webhookUrl, {
